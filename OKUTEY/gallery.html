@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | OKUTEY Fun Club</title>
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>OKUTEY</h1>
+            <p>Fun Club</p>
+        </div>
+        <div class="logo_img">
+             <img src="images/okutey_logo.jpeg" alt="okutey logo image">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="event.html">Events</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="join.html" class="btn-join">Join Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="page-hero">
+            <h1>Our Gallery</h1>
+            <p>Relive the best moments from our events</p>
+        </section>
+
+        <!-- Gallery Filters -->
+        <section class="gallery-filters">
+            <div class="filters-container">
+                <button class="filter-btn active" data-filter="all">All Events</button>
+                <button class="filter-btn" data-filter="parties">Parties</button>
+                <button class="filter-btn" data-filter="outdoors">Outdoor Events</button>
+                <button class="filter-btn" data-filter="games">Game Nights</button>
+                <button class="filter-btn" data-filter="special">Special Events</button>
+                <button class="filter-btn" data-filter="trips">Trips</button>
+            </div>
+        </section>
+
+        <!-- Main Gallery -->
+        <section class="main-gallery">
+            <div class="gallery-grid">
+                <div class="gallery-item parties" data-category="parties">
+                    <img src="images/funeral_day.jpg" alt="Summer Party">
+                    <div class="gallery-overlay">
+                        <h3>Mourned Our Patrons</h3>
+                        <p>November 2020</p>
+                        <a href="#" class="btn-view-more">View More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="gallery-item outdoors" data-category="outdoors">
+                    <img src="images/recent_mem4.jpeg" alt="Hiking Trip">
+                    <div class="gallery-overlay">
+                        <h3>Mourning Jogging</h3>
+                        <p>May 2023</p>
+                        <a href="#" class="btn-view-more">View More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="gallery-item games" data-category="games">
+                    <img src="images/game_night.jpeg" alt="Game Night">
+                    <div class="gallery-overlay">
+                        <h3>Annual Games</h3>
+                        <p>December 2020</p>
+                        <a href="#" class="btn-view-more">View More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="gallery-item special" data-category="special">
+                    <img src="images/ground_friends.jpeg" alt="Anniversary">
+                    <div class="gallery-overlay">
+                        <h3>5th Anniversary</h3>
+                        <p>March 2023</p>
+                        <a href="#" class="btn-view-more">View More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="gallery-item trips" data-category="trips">
+                    <img src="images/past_event2.jpeg" alt="Weekend Trip">
+                    <div class="gallery-overlay">
+                        <h3>Weekend Getaway</h3>
+                        <p>February 2023</p>
+                        <a href="#" class="btn-view-more">View More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="gallery-item parties" data-category="parties">
+                    <img src="images/gallery10.jpeg" alt="New Year Party">
+                    <div class="gallery-overlay">
+                        <h3>New Year's Eve</h3>
+                        <p>December 2022</p>
+                        <a href="#" class="btn-view-more">View More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="gallery-item outdoors" data-category="outdoors">
+                    <img src="images/game_night.jpeg" alt="Beach Day">
+                    <div class="gallery-overlay">
+                        <h3>Tournament Day</h3>
+                        <p>August 2020</p>
+                        <a href="#" class="btn-view-more">View More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="gallery-item special" data-category="special">
+                    <img src="images/event_gallery2.jpeg" alt="Charity Event">
+                    <div class="gallery-overlay">
+                        <h3>Charity Gala</h3>
+                        <p>July 2022</p>
+                        <a href="#" class="btn-view-more">View More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="gallery-item games" data-category="games">
+                    <img src="images/gallery12.jpeg" alt="Trivia Night">
+                    <div class="gallery-overlay">
+                        <h3>Fun Clubs Gala</h3>
+                        <p>December 2019</p>
+                        <a href="#" class="btn-view-more">View More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="gallery-item trips" data-category="trips">
+                    <img src="images/recent_mem6.jpeg" alt="Camping Trip">
+                    <div class="gallery-overlay">
+                        <h3>Visited All Schools In Afere</h3>
+                        <p>October 2021</p>
+                        <a href="#" class="btn-view-more">View More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="gallery-item parties" data-category="parties">
+                    <img src="images/schools.jpeg" alt="Halloween Party">
+                    <div class="gallery-overlay">
+                        <h3>Visited All Schools In Afere</h3>
+                        <p>October 2021</p>
+                        <a href="#" class="btn-view-more">View More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="gallery-item outdoors" data-category="outdoors">
+                    <img src="images/recent_mem1.jpeg" alt="Picnic">
+                    <div class="gallery-overlay">
+                        <h3>New Year Games</h3>
+                        <p>January 2020</p>
+                        <a href="#" class="btn-view-more">View More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                  <div class="gallery-item outdoors" data-category="outdoors">
+                    <img src="images/gallery1.jpeg" alt="Picnic">
+                    <div class="gallery-overlay">
+                        <h3>Visited a Member</h3>
+                        <p>July 2020</p>
+                        <a href="#" class="btn-view-more">View More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                  <div class="gallery-item outdoors" data-category="outdoors">
+                    <img src="images/gallery2.jpeg" alt="Picnic">
+                    <div class="gallery-overlay">
+                        <h3>Christmas Games</h3>
+                        <p>December 2019</p>
+                        <a href="#" class="btn-view-more">View More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                  <div class="gallery-item outdoors" data-category="outdoors">
+                    <img src="images/gallery3.jpeg" alt="Picnic">
+                    <div class="gallery-overlay">
+                        <h3>Christmas Games</h3>
+                        <p>December 2019</p>
+                        <a href="#" class="btn-view-more">View More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                  <div class="gallery-item outdoors" data-category="outdoors">
+                    <img src="images/gallery4.jpeg" alt="Picnic">
+                    <div class="gallery-overlay">
+                        <h3>Christmas Games</h3>
+                        <p>December 2019</p>
+                        <a href="#" class="btn-view-more">View More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                  <div class="gallery-item outdoors" data-category="outdoors">
+                    <img src="images/gallery5.jpeg" alt="Picnic">
+                    <div class="gallery-overlay">
+                        <h3>Christmas Games</h3>
+                        <p>December 2019</p>
+                        <a href="#" class="btn-view-more">View More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                  <div class="gallery-item outdoors" data-category="outdoors">
+                    <img src="images/gallery6.jpeg" alt="Picnic">
+                    <div class="gallery-overlay">
+                        <h3>Christmas Games</h3>
+                        <p>December 2019</p>
+                        <a href="#" class="btn-view-more">View More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                  <div class="gallery-item outdoors" data-category="outdoors">
+                    <img src="images/gallery7.jpeg" alt="Picnic">
+                    <div class="gallery-overlay">
+                        <h3>Morale Time with Supporters</h3>
+                        <p>January 2021</p>
+                        <a href="#" class="btn-view-more">View More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                  <div class="gallery-item outdoors" data-category="outdoors">
+                    <img src="images/gallery8.jpeg" alt="Picnic">
+                    <div class="gallery-overlay">
+                        <h3>Women's Tournament</h3>
+                        <p>July 2021</p>
+                        <a href="#" class="btn-view-more">View More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                  <div class="gallery-item outdoors" data-category="outdoors">
+                    <img src="images/gallery9.jpeg" alt="Picnic">
+                    <div class="gallery-overlay">
+                        <h3>Fun Clubs Invite</h3>
+                        <p>July 2020</p>
+                        <a href="#" class="btn-view-more">View More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Highlights -->
+        <section class="video-highlights">
+            <h2 class="section-title">Video Highlights</h2>
+            <div class="videos-container">
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe src="videos/WhatsApp Video 2025-03-27 at 14.47.53_33998835.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <h3>Christmas Beach Party 2023</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe src="videos/WhatsApp Video 2025-03-27 at 14.47.53_33998835.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <h3>5th Anniversary Celebration</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe src="videos/WhatsApp Video 2025-03-27 at 14.47.53_33998835.mp4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <h3>Annual Charity Run</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo Contest -->
+        <section class="photo-contest">
+            <div class="contest-content">
+                <h2>Monthly Photo Contest</h2>
+                <p>Submit your best photos from our events for a chance to win prizes!</p>
+                <a href="#" class="btn-contest">Learn More <i class="fas fa-camera"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About OKUTEY</h3>
+                <p>OKUTEY Fun Club is a community of fun-loving individuals who come together to create memorable experiences and lasting friendships.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="event.html">Events Calendar</a></li>
+                    <li><a href="gallery.html">Photo Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Fun Street, Cityville</p>
+                <p><i class="fas fa-phone"></i> (233) 549950868</p>
+                <p><i class="fas fa-envelope"></i> info@okuteyfunclub.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 OKUTEY Fun Club. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

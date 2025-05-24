@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join OKUTEY Fun Club | Become a Member</title>
+    <link rel="stylesheet" href="css/join.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>OKUTEY</h1>
+            <p>Fun Club</p>
+        </div>
+         <div class="logo_img">
+             <img src="images/okutey_logo.jpeg" alt="okutey logo image">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="event.html">Events</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="join.html" class="btn-join active">Join Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="join-hero">
+            <div class="hero-content">
+                <h1>Join OKUTEY Fun Club</h1>
+                <p>Become part of our vibrant community and unlock exclusive benefits!</p>
+            </div>
+        </section>
+
+        <!-- Membership Benefits -->
+        <section class="benefits-section">
+            <h2 class="section-title">Why Join Us?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <i class="fas fa-ticket-alt"></i>
+                    <h3>Exclusive Events</h3>
+                    <p>Access members-only parties, trips, and special gatherings.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Make Friends</h3>
+                    <p>Connect with fun-loving people who share your interests.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-percentage"></i>
+                    <h3>Discounts</h3>
+                    <p>Save on event tickets and partner venues.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-gift"></i>
+                    <h3>Member Perks</h3>
+                    <p>Freebies, birthday surprises, and VIP treatment.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Membership Tiers -->
+        <section class="tiers-section">
+            <h2 class="section-title">Choose Your Plan</h2>
+            <div class="tiers-grid">
+                <div class="tier-card">
+                    <h3>Basic</h3>
+                    <p class="price">Free<span></span></p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Access to public events</li>
+                        <li><i class="fas fa-check"></i> Newsletter updates</li>
+                        <li><i class="fas fa-check"></i> 10% event discounts</li>
+                        <li><i class="fas fa-check"></i> No VIP access</li>
+                    </ul>
+                    <a href="#join-form" class="btn-tier">Select Plan</a>
+                </div>
+                <div class="tier-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Premium</h3>
+                    <p class="price">Free<span></span></p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> All Basic benefits</li>
+                        <li><i class="fas fa-check"></i> Members-only events</li>
+                        <li><i class="fas fa-check"></i> event discounts</li>
+                        <li><i class="fas fa-check"></i> Free guest pass</li>
+                    </ul>
+                    <a href="#join-form" class="btn-tier">Select Plan</a>
+                </div>
+                <div class="tier-card">
+                    <h3>Family</h3>
+                    <p class="price">Free<span></span></p>
+                    <ul>
+                        <li><i class="fas fa-check"></i> All Premium benefits</li>
+                        <li><i class="fas fa-check"></i> Covers all family</li>
+                        <li><i class="fas fa-check"></i> event discounts</li>
+                        <li><i class="fas fa-check"></i> Priority registration</li>
+                    </ul>
+                    <a href="#join-form" class="btn-tier">Select Plan</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Join Form -->
+        <section class="join-form-section" id="join-form">
+            <div class="form-container">
+                <h2>Ready to Join?</h2>
+                <p>Fill out the form below to become a member.</p>
+                
+                <form class="membership-form">
+                    <div class="form-group">
+                        <label for="full-name">Full Name*</label>
+                        <input type="text" id="full-name" name="full-name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="plan">Membership Plan*</label>
+                        <select id="plan" name="plan" required>
+                            <option value="">Select a plan</option>
+                            <option value="basic">Basic ($29/year)</option>
+                            <option value="premium">Premium ($49/year)</option>
+                            <option value="family">Family ($79/year)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="interests">Interests (Optional)</label>
+                        <div class="checkbox-group">
+                            <label><input type="checkbox" name="interests" value="parties"> Parties & Socials</label>
+                            <label><input type="checkbox" name="interests" value="outdoors"> Outdoor Activities</label>
+                            <label><input type="checkbox" name="interests" value="games"> Game Nights</label>
+                            <label><input type="checkbox" name="interests" value="arts"> Arts & Culture</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="how-heard">How did you hear about us?</label>
+                        <select id="how-heard" name="how-heard">
+                            <option value="">Select an option</option>
+                            <option value="friend">Friend/Family</option>
+                            <option value="social">Social Media</option>
+                            <option value="event">At an Event</option>
+                            <option value="search">Online Search</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit" class="btn-submit">
+                        <i class="fas fa-user-plus"></i> Become a Member
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials-section">
+            <h2 class="section-title">What Members Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Joining OKUTEY was the best decision! I've made lifelong friends and had unforgettable experiences.</p>
+                    </div>
+                    <div class="member-info">
+                        <img src="images/eben_nurse.jpeg" alt="Sarah K.">
+                        <p><strong>Ebenezer Aidoo</strong><br>Member since 2020</p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>The premium membership is worth every penny. The exclusive events are amazing!</p>
+                    </div>
+                    <div class="member-info">
+                        <img src="images/kofi_kani.jpeg" alt="Mike T.">
+                        <p><strong>Kofi Kani</strong><br>Member since 2019</p>
+                    </div>
+                    
+                </div>
+                 <div class="testimonial-card">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>The premium membership is worth every penny. The exclusive events are amazing!</p>
+                    </div>
+                    <div class="member-info">
+                        <img src="images/alfred.jpeg" alt="Mike T.">
+                        <p><strong>Alfred Nti</strong><br>Member since 2019</p>
+                    </div>
+                    
+                </div>
+                 <div class="testimonial-card">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>The premium membership is worth every penny. The exclusive events are amazing!</p>
+                    </div>
+                    <div class="member-info">
+                        <img src="images/Rispa.jpeg" alt="Mike T.">
+                        <p><strong>Akua Rispa</strong><br>Member since 2018</p>
+                    </div>
+                    
+                </div>
+                 <div class="testimonial-card">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>The premium membership is worth every penny. The exclusive events are amazing!</p>
+                    </div>
+                    <div class="member-info">
+                        <img src="images/ami.jpeg" alt="Mike T.">
+                        <p><strong>Ami Bakayo</strong><br>Member since 2018</p>
+                    </div>
+                    
+                </div>
+                 <div class="testimonial-card">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>The premium membership is worth every penny. The exclusive events are amazing!</p>
+                    </div>
+                    <div class="member-info">
+                        <img src="images/mutala.jpeg" alt="Mike T.">
+                        <p><strong>Dennis Bosompe</strong><br>Member since 2018</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq-section">
+            <h2 class="section-title">Membership FAQ</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How do I pay my membership fee?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We accept credit/debit cards (Visa, Mastercard, Amex) and PayPal. Payment is processed securely during signup.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can I cancel my membership?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! You can cancel anytime, but we don't offer refunds for partial membership periods.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Is there a trial period?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>New members can attend one free event before committing to a paid plan.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About OKUTEY</h3>
+                <p>Creating unforgettable experiences since 2015.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="event.html">Upcoming Events</a></li>
+                    <li><a href="gallery.html">Photo Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact</h3>
+                <p><i class="fas fa-envelope"></i> join@okuteyfunclub.com</p>
+                <p><i class="fas fa-phone"></i> (233) 549950868</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 OKUTEY Fun Club. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // FAQ Accordion
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const icon = question.querySelector('i');
+                
+                question.classList.toggle('active');
+                answer.style.maxHeight = question.classList.contains('active') ? 
+                    answer.scrollHeight + 'px' : '0';
+                icon.classList.toggle('fa-chevron-up');
+            });
+        });
+
+        // Scroll to form when tier plan is selected
+        document.querySelectorAll('.btn-tier').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                const plan = btn.closest('.tier-card').querySelector('h3').textContent;
+                document.getElementById('plan').value = plan.toLowerCase();
+                document.getElementById('join-form').scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>s
